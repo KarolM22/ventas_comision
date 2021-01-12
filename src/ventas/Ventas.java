@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author DaKa
+ * karol martinez cuellar
  */
 public class Ventas {
 
@@ -33,7 +33,8 @@ public class Ventas {
         System.out.println("DIGITE NUMERO DE VENDEDORES");
         N=leer.nextInt();
         
-        int[][] info =new int [N][4];
+        int[][] info =new int [N][4];// definir matriz n es el tamaño y 4 variables que se piden
+        
         for (int c=0;c<N;c++){
         
             System.out.println("DIGITE SU NUMERO DE VERNDEDOR "+(c+1));
